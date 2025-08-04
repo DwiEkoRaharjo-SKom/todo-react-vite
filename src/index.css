@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan agar background dan teks otomatis berubah saat dark mode */
+body {
+  @apply bg-white text-black dark:bg-gray-900 dark:text-white;
+}
